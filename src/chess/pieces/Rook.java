@@ -1,4 +1,4 @@
-package chess.pieces;
+	package chess.pieces;
 
 import boardgame.Board;
 import boardgame.Position;
@@ -67,7 +67,7 @@ public class Rook extends ChessPiece {
 			mat[p.getRow()][p.getColumn()] = true;
 		}
 
-		return null;
+		return mat;
 	}
 
 }
